@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+      font-family: "Quantico", sans-serif;
+
+}
+.nav{
+    background-color: #272C3D;
+    height: 50px;
+}
+.header{
+    background-image: url(Bg.png);
+    width: 1273px;
+    height: 554px;
+    margin: 0 auto;
+}
+.nav ul{
+    margin-left: 50px;
+    display: flex;
+    gap: 100px;
+    color: #fff;
+    padding-top: 13px;
+}
+.nav input{
+    background-color: #404864;
+}
+.nav ul li:hover{
+    color: #FF9C28;
+}
+.card{
+    display: flex;
+    background-color: #272C3D;
+    margin: 0 auto;
+    width: 1273px;
+}
+.sec h1{
+    text-align: center;
+    background-color: #272C3D;
+    width: 1273px;
+    margin: 0 auto;
+    padding-top: 30px;
+    color: #fff;
+}
+.card{
+    padding-left: 85px;
+}
+.logo{
+    width: 22px;
+    margin-top: 100px;
+    height: 44px;
+}
+.kalla p{
+    width: 323px;
+    height: 234px;
+    margin-left: 30px;
+    color: #404864;
+    margin-top: 30px;
+}
+.kichkina{
+    display: flex;
+}
+.kichkina img{
+    margin-bottom: 30px;
+}
+.kalla{
+    margin-left: 260px;
+}
+.kalla h1{
+    padding-top: 20px;
+    color: #fff;
+}
+.foncha{
+    background-color: #272C3D;
+    width: 1273px;
+    height: 750px;
+    margin: 0 auto;
+}
+.text h1{
+    margin-bottom: 25px;
+}
+.fot{
+    display: flex;
+    justify-content: space-between;
+    background-color: #404864;
+    height: 60px;
+}
+.fot ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    color: #fff;
+    margin-right: 150px;
+}
+.fot img{
+    margin-left: 120px;
+}
+.fot ul li:hover{
+    color: #FF9C28;
+    transition: all 1s;
+}
